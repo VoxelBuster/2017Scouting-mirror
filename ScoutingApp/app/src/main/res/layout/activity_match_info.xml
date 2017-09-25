@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_match_info"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="io.github.mdillon95.scoutingapp.MatchInfoActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:text="Match Data"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/matchdata"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+                android:textAlignment="center" />
+
+            <TextView
+                android:text="missing team number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/team_tv_match"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/kek"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+                android:text="Scouter Name" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "386177133389",
+    "firebase_url": "https://scouting-4c5e1.firebaseio.com",
+    "project_id": "scouting-4c5e1",
+    "storage_bucket": "scouting-4c5e1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:386177133389:android:8307397892fe8aeb",
+        "android_client_info": {
+          "package_name": "io.github.mdillon95.scoutingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "386177133389-ose1tmku473nm5oufgv5frq8f9pfvcm2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "io.github.mdillon95.scoutingapp",
+            "certificate_hash": "CF6A4474BBDA58CC196C91BB1B7173817B64A79E"
+          }
+        },
+        {
+          "client_id": "386177133389-k2f98b0l21f2s9cq8lntd5e775907lq2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-IMSEl6xOwM7_QvLVAh4GfbExNXbFs5M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "386177133389-k2f98b0l21f2s9cq8lntd5e775907lq2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/dp_1"
+        android:title="Clear Drawing"/>
+    <item
+        android:id="@+id/dp_2"
+        android:title="Toggle Field Background"/>
+    <item
+        android:id="@+id/dp3"
+        android:title="Toggle Ink Color"/>
+
+</menu>

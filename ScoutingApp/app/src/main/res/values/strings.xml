@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">2017 FRC Scouting and Playmaker</string>
+    <string name="team_entry">Add team entry</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="auth_failed">Authentication Failed</string>
+    <string name="auth_success">Logged in</string>
+    <string name="title_activity_teams_db">Teams Database</string>
+
+    <string name="missing">Missing string</string>
+
+    <string name="add_team_manual">Add team manually</string>
+    <string name="add_team_tba">Add team from TBA page</string>
+    <string name="teams_profile_label">Team and Robot Profile</string>
+    <string name="tba_base_url">https://www.thebluealliance.com/team/</string>
+
+    <string name="tba_teams_dump">https://github.com/the-blue-alliance/the-blue-alliance-data/raw/master/teams/teams.csv</string>
+    <string name="tba_events_dump">https://github.com/the-blue-alliance/the-blue-alliance-data/raw/master/events/</string>
+
+    <string-array name="dt_array">
+        <item>*Drive Train Type</item>
+        <item>Tank Drive</item>
+        <item>West Coast</item>
+        <item>Mecanum</item>
+        <item>Swerve</item>
+        <item>Slide</item>
+        <item>Holonomic</item>
+        <item>Kiwi</item>
+    </string-array>
+    <string-array name="shooter_array">
+        <item>*Shooter Type</item>
+        <item>None</item>
+        <item>Low Goal Dump</item>
+        <item>High Goal Underhand</item>
+        <item>High Goal Overhand</item>
+        <item>Both High and Low Goal</item>
+    </string-array>
+    <string-array name="pickup_array">
+        <item>*Pickup Type</item>
+        <item>None</item>
+        <item>Floor Pickup</item>
+        <item>Hopper Pickup</item>
+        <item>Both Floor and Hopper</item>
+    </string-array>
+    <string-array name="gear_pickup_array">
+        <item>*Gear Pickup Type</item>
+        <item>None</item>
+        <item>Floor Pickup</item>
+        <item>Passive Pickup</item>
+        <item>Both Floor and Drop-in Pickup</item>
+    </string-array>
+    <string-array name="can_climb_array">
+        <item>*Can Climb</item>
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+    <string-array name="robo_speed_array">
+        <item>*Robot Speed</item>
+        <item>Slow (0-9 ft/s)</item>
+        <item>Medium (9-18 ft/s)</item>
+        <item>Fast (18+ ft/s)</item>
+    </string-array>
+    <string-array name="auto_moves_array">
+        <item>*Actually Moves</item>
+        <item>Yes</item>
+        <item>No (Insert Trollface here)</item>
+    </string-array>
+    <string-array name="auto_bl_array">
+        <item>*Crosses Baseline</item>
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+    <string-array name="auto_hopper_array">
+        <item>*Attempts Hopper</item>
+        <item>Red Key</item>
+        <item>Red Retrieval</item>
+        <item>Blue Key</item>
+        <item>Blue Retrieval</item>
+        <item>Center</item>
+        <item>Yes</item>
+        <item>None</item>
+    </string-array>
+    <string-array name="auto_gear_array">
+        <item>*Attempts Gear</item>
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+    <string-array name="auto_shoot_array">
+        <item>*Attempts Goal</item>
+        <item>High Goal</item>
+        <item>Low Goal</item>
+        <item>None</item>
+    </string-array>
+
+    <string name="title_activity_game_plan">Game Plan</string>
+
+    <string name="e2017njbri">MAR Bridgewater-Raritan District Event</string>
+    <string name="e2017njski">MAR Montgomery District Event</string>
+
+    <string-array name="events_array">
+        <item>@string/e2017njbri</item>
+        <item>@string/e2017njski</item>
+    </string-array>
+    <string-array name="match_array">
+        <item>Quarter-Finals</item>
+        <item>Semi-Finals</item>
+        <item>Finals</item>
+    </string-array>
+</resources>

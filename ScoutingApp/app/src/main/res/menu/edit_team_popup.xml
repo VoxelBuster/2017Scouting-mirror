@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/etp_1"
+        android:title="Edit Team"/>
+    <item
+        android:id="@+id/etp_2"
+        android:title="Delete Team"/>
+
+    <item
+        android:id="@+id/etp_3"
+        android:title="Copy JSON Node"/>
+
+    <item
+        android:id="@+id/etp_4"
+        android:title="View Team Stats"/>
+
+</menu>

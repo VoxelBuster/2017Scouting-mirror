@@ -1,0 +1,12 @@
+[22:2:40][INFO] io.github.mdillon95.scoutingpc.Main: Starting Drome Scouting App
+[22:2:40][INFO] io.github.mdillon95.scoutingpc.Main: Getting System Properties
+[22:2:40][INFO] io.github.mdillon95.scoutingpc.Main: OS Name: Windows 10
+[22:2:40][INFO] io.github.mdillon95.scoutingpc.Main: Setting global UI look and feel
+[22:2:40][INFO] io.github.mdillon95.scoutingpc.Main: Attempting to login to Firebase
+[22:2:40][INFO] io.github.mdillon95.scoutingpc.LoginDialog: Authenticating...
+[22:2:40][INFO] io.github.mdillon95.scoutingpc.LoginDialog: App [DEFAULT] initialized.
+[22:2:40][INFO] io.github.mdillon95.scoutingpc.LoginDialog: App initialized with URL https://scouting-4c5e1.firebaseio.com/
+[22:2:40][INFO] io.github.mdillon95.scoutingpc.LoginDialog: Created ScoutingFrame
+[22:2:40][ERROR] io.github.mdillon95.scoutingpc.PaintablePanel: Can't read input file!
+[22:2:44][INFO] io.github.mdillon95.scoutingpc.ScoutingFrame: Main window closing, quitting.
+[22:2:44][INFO] io.github.mdillon95.scoutingpc.Main: Program Exit

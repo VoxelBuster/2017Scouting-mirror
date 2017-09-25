@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_team_stats"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="io.github.mdillon95.scoutingapp.TeamStatsActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:id="@+id/sv_ts">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:text="Team Name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/team_tv_stats"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large" />
+
+            <TextView
+                android:text="Auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+                android:id="@+id/tv0" />
+
+            <TextView
+                android:text="Mean Low Goal Fuel:"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/auto_lg_mean" />
+
+            <TextView
+                android:text="Mean High Goal Fuel:"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/auto_hg_mean" />
+
+            <TextView
+                android:text="Mean Gears:"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/auto_gears_mean" />
+
+            <TextView
+                android:text="Mean Approximate Points:"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/auto_approx_pts" />
+
+            <TextView
+                android:text="Teleop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView29"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium" />
+
+            <TextView
+                android:text="Mean Low Goal Fuel:"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/teleop_lg_mean" />
+
+            <TextView
+                android:text="Mean Low Goal Cycles:"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/teleop_mean_cycles" />
+
+            <TextView
+                android:text="Mean High Goal Fuel:"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/teleop_hg_mean" />
+
+            <TextView
+                android:text="Mean Gears:"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/teleop_mean_gears" />
+
+            <TextView
+                android:text="Successfully Hangs from Airship:"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/hang_prob" />
+
+            <TextView
+                android:text="General:"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView35"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium" />
+
+            <TextView
+                android:text="Mean Fouls:"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/mean_fouls" />
+
+            <TextView
+                android:text="Mean Tech Fouls:"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/mean_tech" />
+
+            <TextView
+                android:text="Yellow Card Probability:"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ylw_card_prob" />
+
+            <TextView
+                android:text="Mean Isolated Score:"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/mean_iso_score" />
+
+            <TextView
+                android:text="Mean Alliance Final Score:"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/mean_final_score" />
+
+            <TextView
+                android:text="Winrate:"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/winrate" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

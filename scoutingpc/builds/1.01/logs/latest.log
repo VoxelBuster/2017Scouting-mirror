@@ -1,0 +1,46 @@
+[23:43:36][INFO] io.github.mdillon95.scoutingpc.Main: Starting Drome Scouting App
+[23:43:36][INFO] io.github.mdillon95.scoutingpc.Main: Getting System Properties
+[23:43:36][INFO] io.github.mdillon95.scoutingpc.Main: OS Name: Windows 10
+[23:43:36][INFO] io.github.mdillon95.scoutingpc.Main: Setting global UI look and feel
+[23:43:36][INFO] io.github.mdillon95.scoutingpc.Main: Attempting to login to Firebase
+[23:43:36][INFO] io.github.mdillon95.scoutingpc.LoginDialog: Authenticating...
+[23:43:36][INFO] io.github.mdillon95.scoutingpc.LoginDialog: App [DEFAULT] initialized.
+[23:43:36][INFO] io.github.mdillon95.scoutingpc.LoginDialog: App initialized with URL https://scouting-4c5e1.firebaseio.com/
+[23:43:36][INFO] io.github.mdillon95.scoutingpc.LoginDialog: Created ScoutingFrame
+[23:43:40][ERROR] com.google.firebase.database.core.ValueEventRegistration: java.lang.NullPointerException
+[23:43:40][ERROR] com.google.firebase.database.core.ValueEventRegistration: 	in io.github.mdillon95.scoutingpc.ScoutingFrame$4.onDataChange(ScoutingFrame.java:688)
+[23:43:40][ERROR] com.google.firebase.database.core.ValueEventRegistration: 	in com.google.firebase.database.core.ValueEventRegistration.fireEvent(ValueEventRegistration.java:61)
+[23:43:40][ERROR] com.google.firebase.database.core.ValueEventRegistration: 	in com.google.firebase.database.core.view.DataEvent.fire(DataEvent.java:49)
+[23:43:40][ERROR] com.google.firebase.database.core.ValueEventRegistration: 	in com.google.firebase.database.core.view.EventRaiser$1.run(EventRaiser.java:41)
+[23:43:40][ERROR] com.google.firebase.database.core.ValueEventRegistration: 	in java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+[23:43:40][ERROR] com.google.firebase.database.core.ValueEventRegistration: 	in java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+[23:43:40][ERROR] com.google.firebase.database.core.ValueEventRegistration: 	in java.lang.Thread.run(Thread.java:745)
+[23:43:45][INFO] io.github.mdillon95.scoutingpc.ScoutingFrame: Teams List Refreshed
+[23:43:45][ERROR] com.google.firebase.database.core.ValueEventRegistration: java.lang.NullPointerException
+[23:43:45][ERROR] com.google.firebase.database.core.ValueEventRegistration: 	in io.github.mdillon95.scoutingpc.ScoutingFrame$4.onDataChange(ScoutingFrame.java:688)
+[23:43:45][ERROR] com.google.firebase.database.core.ValueEventRegistration: 	in com.google.firebase.database.core.ValueEventRegistration.fireEvent(ValueEventRegistration.java:61)
+[23:43:45][ERROR] com.google.firebase.database.core.ValueEventRegistration: 	in com.google.firebase.database.core.view.DataEvent.fire(DataEvent.java:49)
+[23:43:45][ERROR] com.google.firebase.database.core.ValueEventRegistration: 	in com.google.firebase.database.core.view.EventRaiser$1.run(EventRaiser.java:41)
+[23:43:45][ERROR] com.google.firebase.database.core.ValueEventRegistration: 	in java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+[23:43:45][ERROR] com.google.firebase.database.core.ValueEventRegistration: 	in java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+[23:43:45][ERROR] com.google.firebase.database.core.ValueEventRegistration: 	in java.lang.Thread.run(Thread.java:745)
+[23:44:0][INFO] io.github.mdillon95.scoutingpc.ScoutingFrame: Teams List Refreshed
+[23:44:0][ERROR] com.google.firebase.database.core.ValueEventRegistration: java.lang.NullPointerException
+[23:44:0][ERROR] com.google.firebase.database.core.ValueEventRegistration: 	in io.github.mdillon95.scoutingpc.ScoutingFrame$4.onDataChange(ScoutingFrame.java:688)
+[23:44:0][ERROR] com.google.firebase.database.core.ValueEventRegistration: 	in com.google.firebase.database.core.ValueEventRegistration.fireEvent(ValueEventRegistration.java:61)
+[23:44:0][ERROR] com.google.firebase.database.core.ValueEventRegistration: 	in com.google.firebase.database.core.view.DataEvent.fire(DataEvent.java:49)
+[23:44:0][ERROR] com.google.firebase.database.core.ValueEventRegistration: 	in com.google.firebase.database.core.view.EventRaiser$1.run(EventRaiser.java:41)
+[23:44:0][ERROR] com.google.firebase.database.core.ValueEventRegistration: 	in java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+[23:44:0][ERROR] com.google.firebase.database.core.ValueEventRegistration: 	in java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+[23:44:0][ERROR] com.google.firebase.database.core.ValueEventRegistration: 	in java.lang.Thread.run(Thread.java:745)
+[23:44:7][INFO] io.github.mdillon95.scoutingpc.ScoutingFrame: Teams List Refreshed
+[23:44:7][ERROR] com.google.firebase.database.core.ValueEventRegistration: java.lang.NullPointerException
+[23:44:7][ERROR] com.google.firebase.database.core.ValueEventRegistration: 	in io.github.mdillon95.scoutingpc.ScoutingFrame$4.onDataChange(ScoutingFrame.java:688)
+[23:44:7][ERROR] com.google.firebase.database.core.ValueEventRegistration: 	in com.google.firebase.database.core.ValueEventRegistration.fireEvent(ValueEventRegistration.java:61)
+[23:44:7][ERROR] com.google.firebase.database.core.ValueEventRegistration: 	in com.google.firebase.database.core.view.DataEvent.fire(DataEvent.java:49)
+[23:44:7][ERROR] com.google.firebase.database.core.ValueEventRegistration: 	in com.google.firebase.database.core.view.EventRaiser$1.run(EventRaiser.java:41)
+[23:44:7][ERROR] com.google.firebase.database.core.ValueEventRegistration: 	in java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+[23:44:7][ERROR] com.google.firebase.database.core.ValueEventRegistration: 	in java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+[23:44:7][ERROR] com.google.firebase.database.core.ValueEventRegistration: 	in java.lang.Thread.run(Thread.java:745)
+[23:44:9][INFO] io.github.mdillon95.scoutingpc.ScoutingFrame: Main window closing, quitting.
+[23:44:9][INFO] io.github.mdillon95.scoutingpc.Main: Program Exit

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_robot_editor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="io.github.mdillon95.scoutingapp.RobotEditor">
+
+    <TextView
+        android:text="@string/missing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/robo_edit_name"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/robo_edit_name"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:text="General Info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/general_info"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/dt_spinner"
+                android:entries="@array/dt_array"/>
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/shooter_spinner"
+                android:entries="@array/shooter_array"/>
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/pickup_spinner"
+                android:entries="@array/pickup_array" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/gear_pickup_spinner"
+                android:entries="@array/gear_pickup_array" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/can_climb_spinner"
+                android:entries="@array/can_climb_array" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/hopper_cap_edit"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small"
+                android:hint="Hopper Approx. Capacity"
+                android:singleLine="false" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/robo_speed_spinner"
+                android:entries="@array/robo_speed_array" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/shooter_speed_edit"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small"
+                android:hint="Shooter Speed (fuel per second)" />
+
+            <TextView
+                android:text="Auto Capabilities"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView5"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/auto_moves_spinner"
+                android:entries="@array/auto_moves_array" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/auto_bl_spinner"
+                android:entries="@array/auto_bl_array" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/auto_hopper_spinner"
+                android:entries="@array/auto_hopper_array" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/auto_gear_spinner"
+                android:entries="@array/auto_gear_array" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/auto_shoot_spinner"
+                android:entries="@array/auto_shoot_array" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:ems="10"
+                android:id="@+id/robot_comments"
+                android:hint="Comments" />
+
+            <Button
+                android:text="Save"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/robo_edit_submit"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"
+                android:onClick="submitClick" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
